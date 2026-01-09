@@ -1,0 +1,56 @@
+body {
+    font-family: Arial,  sans-serif; /* La famiglia del font */
+    font-size: 11px; /* La dimensione del font principale nei tag <p></p> */
+    background-color: #f0f0f0; /* Il colore dello sfondo della pagina web */
+    color: #333333; /* Il colore del testo */ 
+    background:#0b0e12
+}
+h1 {
+    color: #118d11; /* Il colore dell'intestazione */
+    font-size: 24px; /* La dimensione del font dell'intestazione */
+    font-family: Georgia, serif; /* La famiglia del font usata nell'intestazione */
+    animation: animazione-colore 5s infinite;
+}
+
+h2{
+    color: #0763a0; /* Il colore dell'intestazione */
+    font-size: 12px; /* La dimensione del font dell'intestazione */
+    font-family: Arial, Helvetica, sans-serif; /* La famiglia del font usata nell'intestazione */
+}
+
+h3{
+    color: #1ad3ae; /* Il colore dell'intestazione */
+    font-size: 12px; /* La dimensione del font dell'intestazione */
+    font-family: Arial, Helvetica, sans-serif; /* La famiglia del font usata nell'intestazione */
+}
+
+li{
+    color: #f0eff3; /* Il colore dell'intestazione */
+    font-size: 12px; /* La dimensione del font dell'intestazione */
+    font-family: Arial, Helvetica, sans-serif; /* La famiglia del font usata nell'intestazione */
+}
+
+p{
+    color: #efedf3; /* Il colore dell'intestazione */
+    font-size: 12px; /* La dimensione del font dell'intestazione */
+    font-family: Arial, Helvetica, sans-serif; /* La famiglia del font usata nell'intestazione */
+}
+
+@keyframes animazione-colore{
+    0% {
+    color: #0ee536;
+    font-size: 12px; 
+    
+    }
+    
+    50% {
+    color: #0c17aa;
+    font-size: 20px; 
+
+    }
+
+     100% {
+    color: #0ee536;
+    font-size: 12px; 
+    }
+
